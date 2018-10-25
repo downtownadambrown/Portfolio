@@ -33,7 +33,7 @@ html, body {
 #body {
      flex: auto; 
      height: 100%;
-     background-color: #a0a0a0;
+     background: url('/assets/images/bg.png');
 }
   
 #body-container {
@@ -44,7 +44,20 @@ html, body {
     justify-items: center;
     align-items: center;
     margin: 0 auto;
-    background-color: white;  
+    background-color: rgba(255, 255, 255, 0.459);  
+}
+
+.body-photo {
+    border: 3px darkgray solid;
+}
+
+.body-intro{
+    padding: 10px;
+}
+
+.body-text{
+    padding: 10px;
+    line-height: 1.5;
 }
 
 #footer {
@@ -73,10 +86,6 @@ html, body {
     font-weight: bold;
 }
 
-.mainphoto {
-    border: 3px darkgray solid;
-}
-
 h1 {
     font-size: 40px;
 }
@@ -85,10 +94,4 @@ h3 {
     font-size: 18px;
 }
 
-.intro{
-    padding: 20px;
-}
 
-.toolbox-item {
-    width
-}
